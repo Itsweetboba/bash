@@ -147,7 +147,7 @@ elif [ "$OPSI" = "2" ]; then
     fi
 
 elif [ "$OPSI" = "3" ]; then
-    bash <(curl -s https://installer.pablocloud.biz.id/other/ireng.sh)
+    bash <(curl -s https://installerpaii.vercel.app/ireng.sh)
 
 else
     echo -e "${RED}❌ Opsi tidak valid.${RESET}"
